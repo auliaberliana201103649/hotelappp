@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity
 
         _imageView1 = (ImageView) findViewById(R.id.imageView1);
 
-        String imageUrl = "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsfGVufDB8fDB8fHww&w=1000&q=80";
+        String imageUrl = "https://s3.bukalapak.com/uploads/content_attachment/d020552830e8d762c41284c5/w-740/shutterstock_546118867-2.jpg";
         Picasso.with(this).load(imageUrl).into(_imageView1);
 
 
